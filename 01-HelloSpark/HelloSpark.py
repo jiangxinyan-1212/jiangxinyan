@@ -27,4 +27,4 @@ if __name__ == "__main__":
 
     logger.info("Finished HelloSpark")
     spark.stop()
-    print('finished')
+    print('finished_jiang')
