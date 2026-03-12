@@ -18,7 +18,7 @@ if __name__ == "__main__":
         logger.error("Usage: HelloSpark <filename>")
         sys.exit(-1)
 
-    logger.info("Starting HelloSpark")
+    logger.info("Starting HelloSpark Right Now")
 
     survey_raw_df = load_survey_df(spark, sys.argv[1])
     partitioned_survey_df = survey_raw_df.repartition(2)
